@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'APod/Classes/**/*'
+  s.dependency 'BaseBusiness'
   
   # s.resource_bundles = {
   #   'APod' => ['APod/Assets/*.png']

@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "APod/Classes/**/*"
+  "source_files": "APod/Classes/**/*",
+  "dependencies": {
+    "BaseBusiness": [
+
+    ]
+  }
 }

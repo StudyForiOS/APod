@@ -1,5 +1,7 @@
 PODS:
-  - APod (0.1.0)
+  - APod (0.1.0):
+    - BaseBusiness
+  - BaseBusiness (0.1.2)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -12,6 +14,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - BaseBusiness
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,7 +22,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APod: c744f860d95c08994de253cbe431527659bf479f
+  APod: 7a13c3728117206895cc296a21009ebedd0e79bf
+  BaseBusiness: b3730321d7979c58bb41d952287498625e473b81
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: c9a40a0f9e1ebb24c5975593f6bdc08bd4fc8dad
