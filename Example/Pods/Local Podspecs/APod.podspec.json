@@ -1,0 +1,22 @@
+{
+  "name": "APod",
+  "version": "0.1.0",
+  "summary": "A short description of APod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/airfight/APod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "airfight": "gy.zhu@ctrip.com"
+  },
+  "source": {
+    "git": "https://github.com/airfight/APod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "APod/Classes/**/*"
+}
