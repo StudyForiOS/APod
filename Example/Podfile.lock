@@ -1,0 +1,16 @@
+PODS:
+  - GYAPod (0.1.0)
+
+DEPENDENCIES:
+  - GYAPod (from `../`)
+
+EXTERNAL SOURCES:
+  GYAPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYAPod: 52a90a361c46abad3d4a8ac8198c2b83c496c365
+
+PODFILE CHECKSUM: 916b9c2615d16c75e0631cb8ec634cc9db098dcd
+
+COCOAPODS: 1.5.3

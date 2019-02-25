@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYAPod'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of GYAPod.'
 
 # This description is used to generate tags and improve search results.
@@ -31,12 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GYAPod/Classes/**/*'
-  
+  s.dependency 'BaseBusiness'
+
   # s.resource_bundles = {
   #   'GYAPod' => ['GYAPod/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

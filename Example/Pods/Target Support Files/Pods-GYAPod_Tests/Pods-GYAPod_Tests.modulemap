@@ -1,0 +1,6 @@
+framework module Pods_GYAPod_Tests {
+  umbrella header "Pods-GYAPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

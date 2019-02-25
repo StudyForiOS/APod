@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3E1C7F3887A58F3F48E1DC0A /* Pods-GYAPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYAPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYAPod_Example/Pods-GYAPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		404EBCFCE8B919BBAEAD5521 /* GYAPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GYAPod.podspec; path = ../GYAPod.podspec; sourceTree = "<group>"; };
+		404EBCFCE8B919BBAEAD5521 /* GYAPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GYAPod.podspec; path = ../GYAPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5876CBB68571ACF01904BF01 /* Pods_GYAPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYAPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C60F4BA26A7F581EDE0CEF8 /* Pods-GYAPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYAPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYAPod_Example/Pods-GYAPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GYAPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYAPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6855CB90C34BDDDC910EA911 /* Pods-GYAPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYAPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYAPod_Tests/Pods-GYAPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84F081A5216958D25895D405 /* Pods-GYAPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYAPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYAPod_Tests/Pods-GYAPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D4E774D1DA9F5B23F49C376 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D4E774D1DA9F5B23F49C376 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C66611A5CEF2856BB5AB17A2 /* Pods_GYAPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYAPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD2F6E31A877074A501B8400 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD2F6E31A877074A501B8400 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
