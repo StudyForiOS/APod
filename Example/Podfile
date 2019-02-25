@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GYAPod_Example' do
+  pod 'GYAPod', :path => '../'
+
+  target 'GYAPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
