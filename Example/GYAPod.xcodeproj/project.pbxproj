@@ -292,12 +292,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GYAPod_Example/Pods-GYAPod_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BaseBusiness/BaseBusiness.framework",
 				"${BUILT_PRODUCTS_DIR}/GYAPod/GYAPod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseBusiness.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GYAPod.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

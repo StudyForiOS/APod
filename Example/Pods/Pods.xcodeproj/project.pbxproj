@@ -7,91 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09CE240BE37A6330FAAA21254EE08139 /* GYAPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF665D8ED57E71DC20E9B4AB38B487BF /* GYAPod-dummy.m */; };
-		1EEAAF30B7EAE48B51EBB3D0F1B1A38D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		256A2969D1F1918DAA12B1252EA5A152 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA145339B48D882162ADA13079E76F /* ReplaceMe.swift */; };
-		441901E5F4F22D07946930A85DDB63C9 /* Pods-GYAPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F30C276F800F78D3A722D1A47A8F04 /* Pods-GYAPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EEAAF30B7EAE48B51EBB3D0F1B1A38D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B18D60D20591D2AA9DF773F4B9FF9F /* Foundation.framework */; };
+		39AF76594F00711FCF95454FB936579E /* BaseBusiness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB36511E26A7F28CFF74E210F58EDA /* BaseBusiness-dummy.m */; };
+		44AF2DDEE281ED70A0EE5DD28353C245 /* Pods-GYAPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18957477598E6563251D98E892E4DB98 /* Pods-GYAPod_Example-dummy.m */; };
+		55F1DD852CFE9A4209734650A8BE0259 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB057961FC971EF5D27A50ADD23D2E8 /* Bus.swift */; };
+		7294822E433DC65D292F8EE54284F54F /* AView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AB00CE3677D3458CD4C750960DC879 /* AView.swift */; };
 		841F92B4014D21D244340A940C411074 /* Pods-GYAPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B2184D37A098D83AB3DA5F29F2913D /* Pods-GYAPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86248FEC222399A10041A701 /* AView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86248FEA222399A10041A701 /* AView.swift */; };
-		86248FED222399A10041A701 /* ABusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86248FEB222399A10041A701 /* ABusiness.swift */; };
+		84CF077C94F682A46DAD317DF7A187FA /* BaseBusiness-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480FFDF217D0C4568A061B03A0706984 /* BaseBusiness-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854A9786635EBF5F189C967DE83968ED /* BaseBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11810095006BCBCE4FF58D3DE9C4432 /* BaseBusiness.framework */; };
+		90F8DE34FFB7235809FF4AAF1A834E7E /* GYAPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B034596FC64D9FB0A958B3EC987C3753 /* GYAPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		920C8D39DC65411EBA746F5F4B5F9E5D /* Pods-GYAPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93597154479594F182911561B9275EFD /* Pods-GYAPod_Tests-dummy.m */; };
-		A6B5BB0DE0C659FBE8B5BDA3D9ACC9D8 /* Pods-GYAPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18957477598E6563251D98E892E4DB98 /* Pods-GYAPod_Example-dummy.m */; };
-		AE37EA9D213A0A641F174581677CF292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D0A26F01E144FC842E88269AC3688736 /* GYAPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13788FCA03DEE61E40E6BE98BC3C6B9B /* GYAPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE557873E96E7E87AE8206250F395F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AD38DEDB02E18C64A07745F6903B3C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B18D60D20591D2AA9DF773F4B9FF9F /* Foundation.framework */; };
+		B862AA9E6F3DF2476DCD028AA402ABB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B18D60D20591D2AA9DF773F4B9FF9F /* Foundation.framework */; };
+		B94C3DB427E62BC831425F2591F58B71 /* Pods-GYAPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F30C276F800F78D3A722D1A47A8F04 /* Pods-GYAPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C045E3F1A21ED9A200D5B2950EAB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B18D60D20591D2AA9DF773F4B9FF9F /* Foundation.framework */; };
+		BD06D029259BB814F6A780AB01D110A7 /* BaseBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E54687598D8C41DB820FD140DB5AA6 /* BaseBusiness.swift */; };
+		E10D210429B77A77327CAADBAC3FEC2F /* GYAPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C45E0A2046BD915FF10F914887844E84 /* GYAPod-dummy.m */; };
+		ED3A864636B900275D561726121B31CA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C285075BD3BC10A134D2E0454CF224 /* ReplaceMe.swift */; };
+		F136D645F124F882740C5146F2694249 /* ABusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C2FC0C516C3721357CA2326B0B00F2 /* ABusiness.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38D21AE5096086FE5A9B862975D11FBC /* PBXContainerItemProxy */ = {
+		0EBECF40E28755D8137377CF156DB170 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7BF12F61E3E33FAF1FB0A30E02C20968;
+			remoteGlobalIDString = 2799431D5A65205266440C007CD20537;
+			remoteInfo = BaseBusiness;
+		};
+		6252F85FE00CA3A33EB1BAC04B5DC32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC073A947E1C97FDB1DCA3F2540389E;
 			remoteInfo = GYAPod;
 		};
 		6D7F13C46515F361C3359F1DF08BEC68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3EFB5AB61226C2D8631D992515D8BE32;
+			remoteGlobalIDString = B992848DEDE15500CF46809542FCE360;
 			remoteInfo = "Pods-GYAPod_Example";
+		};
+		FC685BD623E9260D4F824407F31B062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2799431D5A65205266440C007CD20537;
+			remoteInfo = BaseBusiness;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D83B9D976B7F4B99D83D67F1932E8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3DCC1EA6D20CED9D95D16E682F3657 /* Pods-GYAPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYAPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0DD64EDF4B352879CEA28A80A4D6F684 /* Pods-GYAPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYAPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F36BE7612CE3A8A16E070B6AFE4DF72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13788FCA03DEE61E40E6BE98BC3C6B9B /* GYAPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYAPod-umbrella.h"; sourceTree = "<group>"; };
 		171CE1CFC7FC58C024D1434B77C84ACB /* Pods-GYAPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYAPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		17817780BA05D458FC3A54F99E07A488 /* Pods-GYAPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYAPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18957477598E6563251D98E892E4DB98 /* Pods-GYAPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYAPod_Example-dummy.m"; sourceTree = "<group>"; };
-		18EA9127269B329D6B535D48697EAF08 /* GYAPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GYAPod.modulemap; sourceTree = "<group>"; };
+		19E54687598D8C41DB820FD140DB5AA6 /* BaseBusiness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseBusiness.swift; path = BaseBusiness/Classes/BaseBusiness.swift; sourceTree = "<group>"; };
 		1B86AA7618AD55CAC0F4D1C77ABC0B4E /* Pods-GYAPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYAPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		1FBBC6DEDCC6E0A0847F9AF4AF5B79E0 /* Pods-GYAPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYAPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2093DF04E73C4757D9756DABA547609B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2C36C5B894263E012F072204E7707B04 /* BaseBusiness.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseBusiness.modulemap; sourceTree = "<group>"; };
+		2CFF63FA7C7ABB1CA3DECAE690CB0CCD /* GYAPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYAPod-prefix.pch"; sourceTree = "<group>"; };
 		3052B55AC8F2390913D7939ECB1D73E2 /* Pods-GYAPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYAPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		34B18D60D20591D2AA9DF773F4B9FF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C7ECD3E547051EBECC97BF8363B15CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D09DB279C4AF882604BF34EDD8B3011 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446E502263EA4F48F0A03FB5ED46AAB6 /* Pods_GYAPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYAPod_Tests.framework; path = "Pods-GYAPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46197FC7BA84DC65A1A51EC89C688464 /* Pods-GYAPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYAPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		480FFDF217D0C4568A061B03A0706984 /* BaseBusiness-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseBusiness-umbrella.h"; sourceTree = "<group>"; };
+		4AEB36511E26A7F28CFF74E210F58EDA /* BaseBusiness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseBusiness-dummy.m"; sourceTree = "<group>"; };
 		529CFDD9C8F6A78CDA51C546DA9FC7B0 /* Pods-GYAPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYAPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58696C585367F817470110549FED4730 /* GYAPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GYAPod.modulemap; sourceTree = "<group>"; };
 		60F30C276F800F78D3A722D1A47A8F04 /* Pods-GYAPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYAPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		62552D1BE1E877A59E5EA5246DF977BD /* Pods-GYAPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYAPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86248FEA222399A10041A701 /* AView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AView.swift; path = GYAPod/Classes/AView.swift; sourceTree = "<group>"; };
-		86248FEB222399A10041A701 /* ABusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ABusiness.swift; path = GYAPod/Classes/ABusiness.swift; sourceTree = "<group>"; };
+		6B5B094E31CC0FF3BCC643C97AA33554 /* GYAPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GYAPod.framework; path = GYAPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6A1AD75897F16F7E178837ACA8EE4B /* GYAPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYAPod.xcconfig; sourceTree = "<group>"; };
 		906B7022D6204C5451BE6CDEA729C53E /* Pods-GYAPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYAPod_Tests.modulemap"; sourceTree = "<group>"; };
-		92BC0F5A6070EBA5E7A37E649DF49EE9 /* GYAPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYAPod-prefix.pch"; sourceTree = "<group>"; };
+		934633D243EAD63079B0C878256BA798 /* BaseBusiness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseBusiness.framework; path = BaseBusiness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93597154479594F182911561B9275EFD /* Pods-GYAPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYAPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A471DCCC8225B37C963BF997C228E33F /* GYAPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GYAPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AEB53CB9998E446AB06BD07628548E /* BaseBusiness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseBusiness.xcconfig; sourceTree = "<group>"; };
+		99AB00CE3677D3458CD4C750960DC879 /* AView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AView.swift; path = GYAPod/Classes/AView.swift; sourceTree = "<group>"; };
+		A23B6EBDDFFCABB041833F80CCA6A407 /* Pods_GYAPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYAPod_Example.framework; path = "Pods-GYAPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B741EF3CEDF6984DE922D24E2AE88C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A903A08B6587DDA7373257BFFA55CB3A /* Pods-GYAPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYAPod_Example-resources.sh"; sourceTree = "<group>"; };
-		AF613610A26112F6597DE9857202B871 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B034596FC64D9FB0A958B3EC987C3753 /* GYAPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYAPod-umbrella.h"; sourceTree = "<group>"; };
 		B1FF9E29EEE86FE3BD999106596E4583 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9BA145339B48D882162ADA13079E76F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GYAPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B4C2FC0C516C3721357CA2326B0B00F2 /* ABusiness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABusiness.swift; path = GYAPod/Classes/ABusiness.swift; sourceTree = "<group>"; };
+		C11810095006BCBCE4FF58D3DE9C4432 /* BaseBusiness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseBusiness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1419E11E288963567DD9760F8EB2949 /* GYAPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GYAPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C45E0A2046BD915FF10F914887844E84 /* GYAPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYAPod-dummy.m"; sourceTree = "<group>"; };
 		C6B2184D37A098D83AB3DA5F29F2913D /* Pods-GYAPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYAPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8C285075BD3BC10A134D2E0454CF224 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GYAPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C9750EEE025ADBB11E451AD12A7ADB36 /* Pods-GYAPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYAPod_Example.modulemap"; sourceTree = "<group>"; };
-		CD190A798A8851C624D276377AF33756 /* GYAPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYAPod.xcconfig; sourceTree = "<group>"; };
-		CF26614AABA42CCE49A3790899E6E821 /* GYAPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GYAPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F41A3F844EDC82CA3351AE9C13141A1A /* Pods_GYAPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYAPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC6110BB7F6FE9D77F0053A4BD9EE79 /* BaseBusiness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseBusiness-prefix.pch"; sourceTree = "<group>"; };
+		EDB057961FC971EF5D27A50ADD23D2E8 /* Bus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bus.swift; path = BaseBusiness/Classes/Bus.swift; sourceTree = "<group>"; };
 		F5BE4B090BBDD126713DDAA7A77B013A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC1C44C7FCDCDDAE27BD6CFA86DBA8BF /* Pods_GYAPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYAPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE94D4A96E6C21553D0F325CB10E0077 /* Pods-GYAPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYAPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF665D8ED57E71DC20E9B4AB38B487BF /* GYAPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYAPod-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0416054A59668DBB2BE10CC72A66CDB8 /* Frameworks */ = {
+		89C7109B8B3E48B0E32A362371011ABB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE37EA9D213A0A641F174581677CF292 /* Foundation.framework in Frameworks */,
+				B862AA9E6F3DF2476DCD028AA402ABB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6246C2C1A55A92AC688CA6BDADE10C /* Frameworks */ = {
+		8D2C8BC6043473DF0FB951D4CC153539 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE557873E96E7E87AE8206250F395F22 /* Foundation.framework in Frameworks */,
+				B9C045E3F1A21ED9A200D5B2950EAB92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +130,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EEAAF30B7EAE48B51EBB3D0F1B1A38D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16D59A955F57DC88E3AB8D55B596E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A9786635EBF5F189C967DE83968ED /* BaseBusiness.framework in Frameworks */,
+				AD38DEDB02E18C64A07745F6903B3C14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,48 +163,56 @@
 			path = "Target Support Files/Pods-GYAPod_Tests";
 			sourceTree = "<group>";
 		};
-		11538E44E7F8209CB9D1751D85FC792D /* Support Files */ = {
+		34C2879590716A058646BAE9F3E24E02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18EA9127269B329D6B535D48697EAF08 /* GYAPod.modulemap */,
-				CD190A798A8851C624D276377AF33756 /* GYAPod.xcconfig */,
-				FF665D8ED57E71DC20E9B4AB38B487BF /* GYAPod-dummy.m */,
-				92BC0F5A6070EBA5E7A37E649DF49EE9 /* GYAPod-prefix.pch */,
-				13788FCA03DEE61E40E6BE98BC3C6B9B /* GYAPod-umbrella.h */,
-				0F36BE7612CE3A8A16E070B6AFE4DF72 /* Info.plist */,
+				C11810095006BCBCE4FF58D3DE9C4432 /* BaseBusiness.framework */,
+				DB88E370CC443217A1C9F7E309293CA8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46844B34A0F2F7E530058BA08DC5B811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				778EAC7D56AD279EB6FA3D2EF51B1439 /* BaseBusiness */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63F5FE699021C99F0ED203AFD339FDFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58696C585367F817470110549FED4730 /* GYAPod.modulemap */,
+				8C6A1AD75897F16F7E178837ACA8EE4B /* GYAPod.xcconfig */,
+				C45E0A2046BD915FF10F914887844E84 /* GYAPod-dummy.m */,
+				2CFF63FA7C7ABB1CA3DECAE690CB0CCD /* GYAPod-prefix.pch */,
+				B034596FC64D9FB0A958B3EC987C3753 /* GYAPod-umbrella.h */,
+				3D09DB279C4AF882604BF34EDD8B3011 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GYAPod";
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		778EAC7D56AD279EB6FA3D2EF51B1439 /* BaseBusiness */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				19E54687598D8C41DB820FD140DB5AA6 /* BaseBusiness.swift */,
+				EDB057961FC971EF5D27A50ADD23D2E8 /* Bus.swift */,
+				F17E34926FC5FFC35F1E5085BD5F74BA /* Support Files */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4B02EC17FE091C8631BAEB85136A7CDA /* GYAPod */ = {
-			isa = PBXGroup;
-			children = (
-				86248FEB222399A10041A701 /* ABusiness.swift */,
-				86248FEA222399A10041A701 /* AView.swift */,
-				B9BA145339B48D882162ADA13079E76F /* ReplaceMe.swift */,
-				F743263537E1CD6978EB2067865612E8 /* Pod */,
-				11538E44E7F8209CB9D1751D85FC792D /* Support Files */,
-			);
-			name = GYAPod;
-			path = ../..;
+			name = BaseBusiness;
+			path = BaseBusiness;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BDE4A24708423C23031748B297129753 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B940666631A0C569724C807A344CB7A0 /* Products */,
+				A83FB2C6778EEB369A3F1CEF545BA763 /* Development Pods */,
+				34C2879590716A058646BAE9F3E24E02 /* Frameworks */,
+				46844B34A0F2F7E530058BA08DC5B811 /* Pods */,
+				A0016CFF90EB1612B1F5C96EA09D8DC8 /* Products */,
 				A550B5F5EA9426482F7F90126DEF252F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -188,6 +235,17 @@
 			path = "Target Support Files/Pods-GYAPod_Example";
 			sourceTree = "<group>";
 		};
+		A0016CFF90EB1612B1F5C96EA09D8DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934633D243EAD63079B0C878256BA798 /* BaseBusiness.framework */,
+				6B5B094E31CC0FF3BCC643C97AA33554 /* GYAPod.framework */,
+				A23B6EBDDFFCABB041833F80CCA6A407 /* Pods_GYAPod_Example.framework */,
+				446E502263EA4F48F0A03FB5ED46AAB6 /* Pods_GYAPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A550B5F5EA9426482F7F90126DEF252F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,50 +255,67 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B940666631A0C569724C807A344CB7A0 /* Products */ = {
+		A83FB2C6778EEB369A3F1CEF545BA763 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF26614AABA42CCE49A3790899E6E821 /* GYAPod.framework */,
-				FC1C44C7FCDCDDAE27BD6CFA86DBA8BF /* Pods_GYAPod_Example.framework */,
-				F41A3F844EDC82CA3351AE9C13141A1A /* Pods_GYAPod_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BDE4A24708423C23031748B297129753 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4B02EC17FE091C8631BAEB85136A7CDA /* GYAPod */,
+				AF97F2D3ADE4C19F257FE3D86E5A4EF5 /* GYAPod */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F743263537E1CD6978EB2067865612E8 /* Pod */ = {
+		A8A9A9D34550C96D8804704F897E57D4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A471DCCC8225B37C963BF997C228E33F /* GYAPod.podspec */,
-				2093DF04E73C4757D9756DABA547609B /* LICENSE */,
-				AF613610A26112F6597DE9857202B871 /* README.md */,
+				C1419E11E288963567DD9760F8EB2949 /* GYAPod.podspec */,
+				A5B741EF3CEDF6984DE922D24E2AE88C /* LICENSE */,
+				3C7ECD3E547051EBECC97BF8363B15CF /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF97F2D3ADE4C19F257FE3D86E5A4EF5 /* GYAPod */ = {
+			isa = PBXGroup;
+			children = (
+				B4C2FC0C516C3721357CA2326B0B00F2 /* ABusiness.swift */,
+				99AB00CE3677D3458CD4C750960DC879 /* AView.swift */,
+				C8C285075BD3BC10A134D2E0454CF224 /* ReplaceMe.swift */,
+				A8A9A9D34550C96D8804704F897E57D4 /* Pod */,
+				63F5FE699021C99F0ED203AFD339FDFD /* Support Files */,
+			);
+			name = GYAPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB88E370CC443217A1C9F7E309293CA8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				34B18D60D20591D2AA9DF773F4B9FF9F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F17E34926FC5FFC35F1E5085BD5F74BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C36C5B894263E012F072204E7707B04 /* BaseBusiness.modulemap */,
+				96AEB53CB9998E446AB06BD07628548E /* BaseBusiness.xcconfig */,
+				4AEB36511E26A7F28CFF74E210F58EDA /* BaseBusiness-dummy.m */,
+				CBC6110BB7F6FE9D77F0053A4BD9EE79 /* BaseBusiness-prefix.pch */,
+				480FFDF217D0C4568A061B03A0706984 /* BaseBusiness-umbrella.h */,
+				07D83B9D976B7F4B99D83D67F1932E8F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BaseBusiness";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		084701519FE1161ACA6F205936A2381C /* Headers */ = {
+		293E5C00A4DCFAA78C1C70F63485DA48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A26F01E144FC842E88269AC3688736 /* GYAPod-umbrella.h in Headers */,
+				B94C3DB427E62BC831425F2591F58B71 /* Pods-GYAPod_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,34 +327,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69895A58E119E6772C73F2E4E8818CCD /* Headers */ = {
+		8BDC01DAD755BDAED9B0672699EE6AEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441901E5F4F22D07946930A85DDB63C9 /* Pods-GYAPod_Example-umbrella.h in Headers */,
+				84CF077C94F682A46DAD317DF7A187FA /* BaseBusiness-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B997F238BF38830AA12D029BDE521122 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F8DE34FFB7235809FF4AAF1A834E7E /* GYAPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3EFB5AB61226C2D8631D992515D8BE32 /* Pods-GYAPod_Example */ = {
+		2799431D5A65205266440C007CD20537 /* BaseBusiness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1777E046C582674C5E96615534BFFDD7 /* Build configuration list for PBXNativeTarget "Pods-GYAPod_Example" */;
+			buildConfigurationList = 1E888F3701D465B30BBEE9649A87134C /* Build configuration list for PBXNativeTarget "BaseBusiness" */;
 			buildPhases = (
-				69895A58E119E6772C73F2E4E8818CCD /* Headers */,
-				EF38A822E8CE9F6652BA86CFF4392A3D /* Sources */,
-				3F6246C2C1A55A92AC688CA6BDADE10C /* Frameworks */,
-				E5A2231B3B390D2518397EB79ECB29B3 /* Resources */,
+				8BDC01DAD755BDAED9B0672699EE6AEB /* Headers */,
+				E6E8CAFD9050F22659AB09EC67EDF43C /* Sources */,
+				89C7109B8B3E48B0E32A362371011ABB /* Frameworks */,
+				AC521E8D0F392ADEB380697F6880CC26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2CEA9A96B76DBB7814228AB43F303DF /* PBXTargetDependency */,
 			);
-			name = "Pods-GYAPod_Example";
-			productName = "Pods-GYAPod_Example";
-			productReference = FC1C44C7FCDCDDAE27BD6CFA86DBA8BF /* Pods_GYAPod_Example.framework */;
+			name = BaseBusiness;
+			productName = BaseBusiness;
+			productReference = 934633D243EAD63079B0C878256BA798 /* BaseBusiness.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		580DEEF8BF5E56130BA9AA25501BC7FF /* Pods-GYAPod_Tests */ = {
@@ -298,25 +380,46 @@
 			);
 			name = "Pods-GYAPod_Tests";
 			productName = "Pods-GYAPod_Tests";
-			productReference = F41A3F844EDC82CA3351AE9C13141A1A /* Pods_GYAPod_Tests.framework */;
+			productReference = 446E502263EA4F48F0A03FB5ED46AAB6 /* Pods_GYAPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7BF12F61E3E33FAF1FB0A30E02C20968 /* GYAPod */ = {
+		B992848DEDE15500CF46809542FCE360 /* Pods-GYAPod_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64BC397D521E6AE4C0CA4977ADD5B66A /* Build configuration list for PBXNativeTarget "GYAPod" */;
+			buildConfigurationList = 9889729EFC16BD6E6A1F40A01F3D8FDE /* Build configuration list for PBXNativeTarget "Pods-GYAPod_Example" */;
 			buildPhases = (
-				084701519FE1161ACA6F205936A2381C /* Headers */,
-				EA2731CC04658621418BDDD108A0F7CB /* Sources */,
-				0416054A59668DBB2BE10CC72A66CDB8 /* Frameworks */,
-				ECEF04E803BB8881E3E1836569267281 /* Resources */,
+				293E5C00A4DCFAA78C1C70F63485DA48 /* Headers */,
+				4822F8ACD53D96134A254B4B50335D86 /* Sources */,
+				8D2C8BC6043473DF0FB951D4CC153539 /* Frameworks */,
+				BD048C8DC9C086C04476EA65C5122F76 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E1C75B647C0C9C09BC136152573E83F5 /* PBXTargetDependency */,
+				B59E7D0A3117D997D84DCC3FFAB13881 /* PBXTargetDependency */,
+			);
+			name = "Pods-GYAPod_Example";
+			productName = "Pods-GYAPod_Example";
+			productReference = A23B6EBDDFFCABB041833F80CCA6A407 /* Pods_GYAPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBC073A947E1C97FDB1DCA3F2540389E /* GYAPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EDCD9DDF3BFE56CB178C3B5C086A28 /* Build configuration list for PBXNativeTarget "GYAPod" */;
+			buildPhases = (
+				B997F238BF38830AA12D029BDE521122 /* Headers */,
+				965171DB393BCC4ED5FA423AD1CC611D /* Sources */,
+				F16D59A955F57DC88E3AB8D55B596E3D /* Frameworks */,
+				82920E6A9F3933266B57E62628BBAE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F57601B960B5E1AD1147542AD976E1C /* PBXTargetDependency */,
 			);
 			name = GYAPod;
 			productName = GYAPod;
-			productReference = CF26614AABA42CCE49A3790899E6E821 /* GYAPod.framework */;
+			productReference = 6B5B094E31CC0FF3BCC643C97AA33554 /* GYAPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,18 +439,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B940666631A0C569724C807A344CB7A0 /* Products */;
+			productRefGroup = A0016CFF90EB1612B1F5C96EA09D8DC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7BF12F61E3E33FAF1FB0A30E02C20968 /* GYAPod */,
-				3EFB5AB61226C2D8631D992515D8BE32 /* Pods-GYAPod_Example */,
+				2799431D5A65205266440C007CD20537 /* BaseBusiness */,
+				DBC073A947E1C97FDB1DCA3F2540389E /* GYAPod */,
+				B992848DEDE15500CF46809542FCE360 /* Pods-GYAPod_Example */,
 				580DEEF8BF5E56130BA9AA25501BC7FF /* Pods-GYAPod_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82920E6A9F3933266B57E62628BBAE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B2CF1C7C05A564982E38F49217C7A94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,14 +466,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5A2231B3B390D2518397EB79ECB29B3 /* Resources */ = {
+		AC521E8D0F392ADEB380697F6880CC26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECEF04E803BB8881E3E1836569267281 /* Resources */ = {
+		BD048C8DC9C086C04476EA65C5122F76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,6 +483,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4822F8ACD53D96134A254B4B50335D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF2DDEE281ED70A0EE5DD28353C245 /* Pods-GYAPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5160AD08D53D78062178A5F722BADD6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,43 +499,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA2731CC04658621418BDDD108A0F7CB /* Sources */ = {
+		965171DB393BCC4ED5FA423AD1CC611D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86248FEC222399A10041A701 /* AView.swift in Sources */,
-				09CE240BE37A6330FAAA21254EE08139 /* GYAPod-dummy.m in Sources */,
-				256A2969D1F1918DAA12B1252EA5A152 /* ReplaceMe.swift in Sources */,
-				86248FED222399A10041A701 /* ABusiness.swift in Sources */,
+				F136D645F124F882740C5146F2694249 /* ABusiness.swift in Sources */,
+				7294822E433DC65D292F8EE54284F54F /* AView.swift in Sources */,
+				E10D210429B77A77327CAADBAC3FEC2F /* GYAPod-dummy.m in Sources */,
+				ED3A864636B900275D561726121B31CA /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF38A822E8CE9F6652BA86CFF4392A3D /* Sources */ = {
+		E6E8CAFD9050F22659AB09EC67EDF43C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B5BB0DE0C659FBE8B5BDA3D9ACC9D8 /* Pods-GYAPod_Example-dummy.m in Sources */,
+				39AF76594F00711FCF95454FB936579E /* BaseBusiness-dummy.m in Sources */,
+				BD06D029259BB814F6A780AB01D110A7 /* BaseBusiness.swift in Sources */,
+				55F1DD852CFE9A4209734650A8BE0259 /* Bus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F57601B960B5E1AD1147542AD976E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseBusiness;
+			target = 2799431D5A65205266440C007CD20537 /* BaseBusiness */;
+			targetProxy = 0EBECF40E28755D8137377CF156DB170 /* PBXContainerItemProxy */;
+		};
 		4693336DFEDE629EDD584E9D5196B394 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GYAPod_Example";
-			target = 3EFB5AB61226C2D8631D992515D8BE32 /* Pods-GYAPod_Example */;
+			target = B992848DEDE15500CF46809542FCE360 /* Pods-GYAPod_Example */;
 			targetProxy = 6D7F13C46515F361C3359F1DF08BEC68 /* PBXContainerItemProxy */;
 		};
-		E2CEA9A96B76DBB7814228AB43F303DF /* PBXTargetDependency */ = {
+		B59E7D0A3117D997D84DCC3FFAB13881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GYAPod;
-			target = 7BF12F61E3E33FAF1FB0A30E02C20968 /* GYAPod */;
-			targetProxy = 38D21AE5096086FE5A9B862975D11FBC /* PBXContainerItemProxy */;
+			target = DBC073A947E1C97FDB1DCA3F2540389E /* GYAPod */;
+			targetProxy = 6252F85FE00CA3A33EB1BAC04B5DC32C /* PBXContainerItemProxy */;
+		};
+		E1C75B647C0C9C09BC136152573E83F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseBusiness;
+			target = 2799431D5A65205266440C007CD20537 /* BaseBusiness */;
+			targetProxy = FC685BD623E9260D4F824407F31B062C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3BCA3D3B66389C79982DA9FE89B2271A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6A1AD75897F16F7E178837ACA8EE4B /* GYAPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GYAPod/GYAPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GYAPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GYAPod/GYAPod.modulemap";
+				PRODUCT_MODULE_NAME = GYAPod;
+				PRODUCT_NAME = GYAPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -538,46 +702,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		6D77EF57F617F5EDB3A5F952D832B528 /* Debug */ = {
+		A9334B25B0D05C8F5BFFB1049988FCBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD190A798A8851C624D276377AF33756 /* GYAPod.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GYAPod/GYAPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GYAPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GYAPod/GYAPod.modulemap";
-				PRODUCT_MODULE_NAME = GYAPod;
-				PRODUCT_NAME = GYAPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		75FA443FE33A42853B6574780A1AC283 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD190A798A8851C624D276377AF33756 /* GYAPod.xcconfig */;
+			baseConfigurationReference = 8C6A1AD75897F16F7E178837ACA8EE4B /* GYAPod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -607,7 +741,72 @@
 			};
 			name = Release;
 		};
-		9B7FE8CF54FD01F0E0AB67A6EC6C6D15 /* Release */ = {
+		AA09F47D1181FF0E3213EF5665B56D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17817780BA05D458FC3A54F99E07A488 /* Pods-GYAPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYAPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYAPod_Example/Pods-GYAPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFD4BFF652B82F25386B4315F11E3082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AEB53CB9998E446AB06BD07628548E /* BaseBusiness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BaseBusiness/BaseBusiness-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BaseBusiness/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BaseBusiness/BaseBusiness.modulemap";
+				PRODUCT_MODULE_NAME = BaseBusiness;
+				PRODUCT_NAME = BaseBusiness;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAB1875E3FDC351FFF76E069F9479E56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46197FC7BA84DC65A1A51EC89C688464 /* Pods-GYAPod_Example.release.xcconfig */;
 			buildSettings = {
@@ -640,6 +839,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D45A64A6E72625333869D21824C8ED5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AEB53CB9998E446AB06BD07628548E /* BaseBusiness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BaseBusiness/BaseBusiness-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BaseBusiness/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BaseBusiness/BaseBusiness.modulemap";
+				PRODUCT_MODULE_NAME = BaseBusiness;
+				PRODUCT_NAME = BaseBusiness;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D468A18C7241E4186145A927241B4264 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -674,39 +904,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		DC46306FF5432DB4B491E1DDFD57C577 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17817780BA05D458FC3A54F99E07A488 /* Pods-GYAPod_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GYAPod_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GYAPod_Example/Pods-GYAPod_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E9B4449C96AC47723A41F5B1BA377416 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -744,11 +941,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1777E046C582674C5E96615534BFFDD7 /* Build configuration list for PBXNativeTarget "Pods-GYAPod_Example" */ = {
+		1E888F3701D465B30BBEE9649A87134C /* Build configuration list for PBXNativeTarget "BaseBusiness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC46306FF5432DB4B491E1DDFD57C577 /* Debug */,
-				9B7FE8CF54FD01F0E0AB67A6EC6C6D15 /* Release */,
+				D45A64A6E72625333869D21824C8ED5C /* Debug */,
+				AFD4BFF652B82F25386B4315F11E3082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -762,11 +959,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64BC397D521E6AE4C0CA4977ADD5B66A /* Build configuration list for PBXNativeTarget "GYAPod" */ = {
+		44EDCD9DDF3BFE56CB178C3B5C086A28 /* Build configuration list for PBXNativeTarget "GYAPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D77EF57F617F5EDB3A5F952D832B528 /* Debug */,
-				75FA443FE33A42853B6574780A1AC283 /* Release */,
+				3BCA3D3B66389C79982DA9FE89B2271A /* Debug */,
+				A9334B25B0D05C8F5BFFB1049988FCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -776,6 +973,15 @@
 			buildConfigurations = (
 				E9B4449C96AC47723A41F5B1BA377416 /* Debug */,
 				D468A18C7241E4186145A927241B4264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9889729EFC16BD6E6A1F40A01F3D8FDE /* Build configuration list for PBXNativeTarget "Pods-GYAPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA09F47D1181FF0E3213EF5665B56D42 /* Debug */,
+				CAB1875E3FDC351FFF76E069F9479E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

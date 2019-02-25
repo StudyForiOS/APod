@@ -1,15 +1,22 @@
 PODS:
-  - GYAPod (0.1.0)
+  - BaseBusiness (0.1.3)
+  - GYAPod (0.2.0):
+    - BaseBusiness
 
 DEPENDENCIES:
   - GYAPod (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BaseBusiness
 
 EXTERNAL SOURCES:
   GYAPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GYAPod: 52a90a361c46abad3d4a8ac8198c2b83c496c365
+  BaseBusiness: 1c94b48bfa484a8f239ed507d95b28bf2d83dbf9
+  GYAPod: 5cdfe32eb2c4e7155d8fa4c447390bd74b141933
 
 PODFILE CHECKSUM: 916b9c2615d16c75e0631cb8ec634cc9db098dcd
 
