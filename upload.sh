@@ -7,7 +7,7 @@ VersionString=`grep -E 's.version.*=' GYAPod.podspec`
 VersionNumber=`tr -cd 0-9 <<<"$VersionString"`
 #NewVersionNumber=$(($VersionNumber + 2))
 NewVersionNumber=0.2.0
-LineNumber=`grep -nE 's.version.*=' APod.podspec | cut -d : -f1`
+LineNumber=`grep -nE 's.version.*=' GYAPod.podspec | cut -d : -f1`
 sed -i "" "${LineNumber}s/${VersionNumber}/${NewVersionNumber}/g" GYAPod.podspec
 
 echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
