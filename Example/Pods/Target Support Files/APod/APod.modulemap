@@ -1,6 +1,0 @@
-framework module APod {
-  umbrella header "APod-umbrella.h"
-
-  export *
-  module * { export * }
-}
