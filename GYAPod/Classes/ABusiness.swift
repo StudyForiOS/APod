@@ -8,7 +8,7 @@ public class ABusiness: BaseBusiness {
     
     public override func businessJob(_ str: String, params: Array<Any>) -> Any? {
         
-        if str == "APod/AView" {
+        if str == "ABusiness/AView" {
             return AView()
         }
         
