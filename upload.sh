@@ -15,4 +15,4 @@ echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-pod trunk push ./GYAPod.podspec --verbose --use-libraries --allow-warnings --use-modular-headers
+pod trunk push ../GYAPod.podspec --verbose --use-libraries --allow-warnings --use-modular-headers
